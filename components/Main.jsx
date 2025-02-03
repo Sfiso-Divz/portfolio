@@ -14,13 +14,14 @@ const Main = () => {
                 <p className='text-gray-700 py-4'>I am aspiring to become a Full-Stack and Software Developer, I am currently learning different technologies to help me reach that goal.</p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-6 text-[#5651e5]'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-500'>
-                        <FaLinkedin />
+                        <a href="https://www.linkedin.com/in/mfihlo-dlamini-7193092a3/"><FaLinkedin /></a> 
                     </div>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-500'>
-                        <FaGithub />
+                        <a href="https://github.com/Sfiso-Divz"><FaGithub /></a>
                     </div>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-500'>
-                        <AiOutlineMail />
+                        <a href="/#contact"><AiOutlineMail /></a>
+                        
                     </div>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-500'>
                         <BsFillPersonLinesFill />
