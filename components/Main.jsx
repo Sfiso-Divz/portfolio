@@ -24,7 +24,7 @@ const Main = () => {
                         
                     </div>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-500'>
-                        <BsFillPersonLinesFill />
+                        <a href="/https://x.com/Sfiso_Divz"><BsFillPersonLinesFill /></a>
                     </div>
                     
                 </div>
