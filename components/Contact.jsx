@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 const Contact = () => {
@@ -68,7 +68,7 @@ const Contact = () => {
                     <a href="/#contact"><AiOutlineMail /></a>
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-500">
-                    <BsFillPersonLinesFill />
+                    <a href="https://x.com/Sfiso_Divz"><FaTwitter /></a>
                   </div>
                 </div>
               </div>

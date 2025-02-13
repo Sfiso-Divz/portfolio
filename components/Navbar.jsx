@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React, {useState, useEffect} from 'react'
 import {AiOutlineClose, AiOutlineMail, AiOutlineMenu} from 'react-icons/ai'
-import {FaGithub, FaLinkedinIn} from 'react-icons/fa'
+import {FaGithub, FaLinkedinIn, FaTwitter} from 'react-icons/fa'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 
 const Navbar = () => {
@@ -92,7 +92,7 @@ const Navbar = () => {
                                 <a href="/#contact"><AiOutlineMail /></a>
                             </div>
                             <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
-                                <BsFillPersonLinesFill />
+                                <a href="https://x.com/Sfiso_Divz"><FaTwitter /></a>
                             </div>
                         </div>
                     </div>
