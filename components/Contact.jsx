@@ -48,7 +48,7 @@ const Contact = () => {
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
             <div className="lg:p-4 h-full">
               <div>
-                <Image src="/assets/contact.jpg" width="500" height="500" alt="/" />
+                <Image src="/./assets/contact.jpg" width="500" height="500" alt="/" />
               </div>
               <div>
                 <h2 className="py-2 text-2xl text-gray-600">Mfihlo Dlamini</h2>
